@@ -37,8 +37,5 @@ class CollegeStudent(Student, SportsPlayer):
         print("Sport Name:", self.sport_name)
 
 
-college_student = CollegeStudent(
-    "Savita", "CS076", "Cricket", "MRIT"
-)
-
+college_student = CollegeStudent("Savita", "CS076", "Cricket", "MRIT")
 college_student.display_college_student()
